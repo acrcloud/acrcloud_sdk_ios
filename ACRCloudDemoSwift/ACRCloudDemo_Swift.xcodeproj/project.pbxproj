@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090A0257252204450053E0A9 /* libACRCloud_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A0256252204450053E0A9 /* libACRCloud_IOS_SDK.a */; };
+		A24E360E1D5B74F600C98C28 /* LICENSE.MD in Sources */ = {isa = PBXBuildFile; fileRef = A24E360D1D5B74F600C98C28 /* LICENSE.MD */; };
+		A2B3CEA81ED8543100A5791E /* acrcloud_local_db in Resources */ = {isa = PBXBuildFile; fileRef = A2B3CEA71ED8543100A5791E /* acrcloud_local_db */; };
+		A2D968871CA512B0009618E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D968861CA512B0009618E1 /* AppDelegate.swift */; };
+		A2D968891CA512B0009618E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D968881CA512B0009618E1 /* ViewController.swift */; };
+		A2D9688C1CA512B0009618E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D9688A1CA512B0009618E1 /* Main.storyboard */; };
+		A2D9688E1CA512B0009618E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D9688D1CA512B0009618E1 /* Assets.xcassets */; };
+		A2D968911CA512B0009618E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D9688F1CA512B0009618E1 /* LaunchScreen.storyboard */; };
+		A2D968B91CA51EC0009618E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D968B81CA51EC0009618E1 /* AVFoundation.framework */; };
+		A2D968BB1CA51ED6009618E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D968BA1CA51ED6009618E1 /* Security.framework */; };
+		A2D968BD1CA51EE1009618E1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D968BC1CA51EE1009618E1 /* AudioToolbox.framework */; };
+		A2D968C71CA6560D009618E1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D968C61CA6560D009618E1 /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D968981CA512B0009618E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D9687B1CA512AF009618E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D968821CA512AF009618E1;
+			remoteInfo = ACRCloudDemo_Swift;
+		};
+		A2D968A31CA512B0009618E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D9687B1CA512AF009618E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D968821CA512AF009618E1;
+			remoteInfo = ACRCloudDemo_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090A0256252204450053E0A9 /* libACRCloud_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACRCloud_IOS_SDK.a; sourceTree = "<group>"; };
+		A24E360D1D5B74F600C98C28 /* LICENSE.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.MD; sourceTree = "<group>"; };
+		A2B3CEA71ED8543100A5791E /* acrcloud_local_db */ = {isa = PBXFileReference; lastKnownFileType = folder; path = acrcloud_local_db; sourceTree = "<group>"; };
+		A2D968831CA512AF009618E1 /* ACRCloudDemo_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACRCloudDemo_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D968861CA512B0009618E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D968881CA512B0009618E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2D9688B1CA512B0009618E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D9688D1CA512B0009618E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D968901CA512B0009618E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D968921CA512B0009618E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D968971CA512B0009618E1 /* ACRCloudDemo_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACRCloudDemo_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D968A21CA512B0009618E1 /* ACRCloudDemo_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACRCloudDemo_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D968B41CA51E5F009618E1 /* ACRCloudConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudConfig.h; sourceTree = "<group>"; };
+		A2D968B51CA51E5F009618E1 /* ACRCloudRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudRecognition.h; sourceTree = "<group>"; };
+		A2D968B81CA51EC0009618E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A2D968BA1CA51ED6009618E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A2D968BC1CA51EE1009618E1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A2D968BF1CA53B57009618E1 /* ACRCloudDemo_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACRCloudDemo_Swift-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		A2D968C61CA6560D009618E1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D968801CA512AF009618E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D968C71CA6560D009618E1 /* libc++.tbd in Frameworks */,
+				A2D968BD1CA51EE1009618E1 /* AudioToolbox.framework in Frameworks */,
+				A2D968BB1CA51ED6009618E1 /* Security.framework in Frameworks */,
+				090A0257252204450053E0A9 /* libACRCloud_IOS_SDK.a in Frameworks */,
+				A2D968B91CA51EC0009618E1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D968941CA512B0009618E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D9689F1CA512B0009618E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D9687A1CA512AF009618E1 = {
+			isa = PBXGroup;
+			children = (
+				A2D968C61CA6560D009618E1 /* libc++.tbd */,
+				090A0256252204450053E0A9 /* libACRCloud_IOS_SDK.a */,
+				A2D968BC1CA51EE1009618E1 /* AudioToolbox.framework */,
+				A2D968BA1CA51ED6009618E1 /* Security.framework */,
+				A2D968B81CA51EC0009618E1 /* AVFoundation.framework */,
+				A2D968851CA512B0009618E1 /* ACRCloudDemo_Swift */,
+				A2D968841CA512AF009618E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D968841CA512AF009618E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D968831CA512AF009618E1 /* ACRCloudDemo_Swift.app */,
+				A2D968971CA512B0009618E1 /* ACRCloudDemo_SwiftTests.xctest */,
+				A2D968A21CA512B0009618E1 /* ACRCloudDemo_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D968851CA512B0009618E1 /* ACRCloudDemo_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A2D968BF1CA53B57009618E1 /* ACRCloudDemo_Swift-Bridging-Header.h */,
+				A2D968B41CA51E5F009618E1 /* ACRCloudConfig.h */,
+				A2D968B51CA51E5F009618E1 /* ACRCloudRecognition.h */,
+				A2D968861CA512B0009618E1 /* AppDelegate.swift */,
+				A2D968881CA512B0009618E1 /* ViewController.swift */,
+				A2D9688A1CA512B0009618E1 /* Main.storyboard */,
+				A24E360D1D5B74F600C98C28 /* LICENSE.MD */,
+				A2B3CEA71ED8543100A5791E /* acrcloud_local_db */,
+				A2D9688D1CA512B0009618E1 /* Assets.xcassets */,
+				A2D9688F1CA512B0009618E1 /* LaunchScreen.storyboard */,
+				A2D968921CA512B0009618E1 /* Info.plist */,
+			);
+			path = ACRCloudDemo_Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D968821CA512AF009618E1 /* ACRCloudDemo_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D968AB1CA512B0009618E1 /* Build configuration list for PBXNativeTarget "ACRCloudDemo_Swift" */;
+			buildPhases = (
+				A2D9687F1CA512AF009618E1 /* Sources */,
+				A2D968801CA512AF009618E1 /* Frameworks */,
+				A2D968811CA512AF009618E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACRCloudDemo_Swift;
+			productName = ACRCloudDemo_Swift;
+			productReference = A2D968831CA512AF009618E1 /* ACRCloudDemo_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D968961CA512B0009618E1 /* ACRCloudDemo_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D968AE1CA512B0009618E1 /* Build configuration list for PBXNativeTarget "ACRCloudDemo_SwiftTests" */;
+			buildPhases = (
+				A2D968931CA512B0009618E1 /* Sources */,
+				A2D968941CA512B0009618E1 /* Frameworks */,
+				A2D968951CA512B0009618E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D968991CA512B0009618E1 /* PBXTargetDependency */,
+			);
+			name = ACRCloudDemo_SwiftTests;
+			productName = ACRCloudDemo_SwiftTests;
+			productReference = A2D968971CA512B0009618E1 /* ACRCloudDemo_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2D968A11CA512B0009618E1 /* ACRCloudDemo_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D968B11CA512B0009618E1 /* Build configuration list for PBXNativeTarget "ACRCloudDemo_SwiftUITests" */;
+			buildPhases = (
+				A2D9689E1CA512B0009618E1 /* Sources */,
+				A2D9689F1CA512B0009618E1 /* Frameworks */,
+				A2D968A01CA512B0009618E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D968A41CA512B0009618E1 /* PBXTargetDependency */,
+			);
+			name = ACRCloudDemo_SwiftUITests;
+			productName = ACRCloudDemo_SwiftUITests;
+			productReference = A2D968A21CA512B0009618E1 /* ACRCloudDemo_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D9687B1CA512AF009618E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = olym.yin;
+				TargetAttributes = {
+					A2D968821CA512AF009618E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 73VE83GXNB;
+						LastSwiftMigration = 0810;
+					};
+					A2D968961CA512B0009618E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = A2D968821CA512AF009618E1;
+					};
+					A2D968A11CA512B0009618E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = A2D968821CA512AF009618E1;
+					};
+				};
+			};
+			buildConfigurationList = A2D9687E1CA512AF009618E1 /* Build configuration list for PBXProject "ACRCloudDemo_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A2D9687A1CA512AF009618E1;
+			productRefGroup = A2D968841CA512AF009618E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D968821CA512AF009618E1 /* ACRCloudDemo_Swift */,
+				A2D968961CA512B0009618E1 /* ACRCloudDemo_SwiftTests */,
+				A2D968A11CA512B0009618E1 /* ACRCloudDemo_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D968811CA512AF009618E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D968911CA512B0009618E1 /* LaunchScreen.storyboard in Resources */,
+				A2B3CEA81ED8543100A5791E /* acrcloud_local_db in Resources */,
+				A2D9688E1CA512B0009618E1 /* Assets.xcassets in Resources */,
+				A2D9688C1CA512B0009618E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D968951CA512B0009618E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D968A01CA512B0009618E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D9687F1CA512AF009618E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D968891CA512B0009618E1 /* ViewController.swift in Sources */,
+				A24E360E1D5B74F600C98C28 /* LICENSE.MD in Sources */,
+				A2D968871CA512B0009618E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D968931CA512B0009618E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D9689E1CA512B0009618E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D968991CA512B0009618E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D968821CA512AF009618E1 /* ACRCloudDemo_Swift */;
+			targetProxy = A2D968981CA512B0009618E1 /* PBXContainerItemProxy */;
+		};
+		A2D968A41CA512B0009618E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D968821CA512AF009618E1 /* ACRCloudDemo_Swift */;
+			targetProxy = A2D968A31CA512B0009618E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2D9688A1CA512B0009618E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D9688B1CA512B0009618E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D9688F1CA512B0009618E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D968901CA512B0009618E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D968A91CA512B0009618E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D968AA1CA512B0009618E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D968AC1CA512B0009618E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ACRCloudDemo_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ACRCloudDemo_Swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo2-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ACRCloudDemo_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2D968AD1CA512B0009618E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ACRCloudDemo_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ACRCloudDemo_Swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo2-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ACRCloudDemo_Swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A2D968AF1CA512B0009618E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ACRCloudDemo_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACRCloudDemo_Swift.app/ACRCloudDemo_Swift";
+			};
+			name = Debug;
+		};
+		A2D968B01CA512B0009618E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ACRCloudDemo_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACRCloudDemo_Swift.app/ACRCloudDemo_Swift";
+			};
+			name = Release;
+		};
+		A2D968B21CA512B0009618E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ACRCloudDemo_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ACRCloudDemo_Swift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2D968B31CA512B0009618E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ACRCloudDemo_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ACRCloudDemo_Swift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D9687E1CA512AF009618E1 /* Build configuration list for PBXProject "ACRCloudDemo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D968A91CA512B0009618E1 /* Debug */,
+				A2D968AA1CA512B0009618E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D968AB1CA512B0009618E1 /* Build configuration list for PBXNativeTarget "ACRCloudDemo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D968AC1CA512B0009618E1 /* Debug */,
+				A2D968AD1CA512B0009618E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D968AE1CA512B0009618E1 /* Build configuration list for PBXNativeTarget "ACRCloudDemo_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D968AF1CA512B0009618E1 /* Debug */,
+				A2D968B01CA512B0009618E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D968B11CA512B0009618E1 /* Build configuration list for PBXNativeTarget "ACRCloudDemo_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D968B21CA512B0009618E1 /* Debug */,
+				A2D968B31CA512B0009618E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D9687B1CA512AF009618E1 /* Project object */;
+}

@@ -1,0 +1,94 @@
+# Release notes #
+
+### v1.5.9.2 ###
+
+* 1,fixed the issue in the stopRecordAndRec method that it will not stop record when this function is called
+
+### v1.5.9.3 ###
+
+* 1,Set back original AVAudioSessionCategory in stop record, and setActive to yes after setCategory in stop.
+
+### v1.5.9.4 ###
+
+* 1, adjust the play_offset of the offline mode.
+
+### v1.5.9.5 ###
+
+* 1, add method 
++(NSData*) resample:(NSData*)pcm
+         sampleRate:(unsigned)sampleRate
+           nChannel:(short)nChannel;
+
+### v1.5.9.6 ###
+
+* 1, add methods
++(NSData*)get_fingerprint:(char*)pcm len:(int)len;
++(NSData*)get_fingerprint:(NSData*)pcm
+               sampleRate:(unsigned)sampleRate
+                 nChannel:(short)nChannel;
+
+### v1.5.9.7 ###
+*1, recognize/recognize_fp support offline recognition.
+
+### v1.5.9.8 ###
+*1, fixed error “Compiling IB documents for earlier than iOS 7 is no longer supported.” in XCode 9
+
+### v1.5.9.9 ###
+*1, add keepPlaying config variable. when set YES, the song playing in you phone will keep playing when the recognition is finished.
+
+### v1.6.0.0 ###
+*1, fixed issue that stop playing when call startPreRecord or startRecordRec in current app.
+*2, set keepPlaying config two value, 1 or 2, 1 is restore the previous Audio Category when stop recording. 2, only stop recording, do nothing with Audio Category.
+
+### v1.6.0.1 ###
+*1,  fixed the bluetooth issue.
+*2,  fixed stop playing issue.
+
+### v1.6.0.2 ###
+*1,  change the demo default protocol to https
+
+### v1.6.0.3 ###
+*1, support humming for low-level function
+
+### v1.6.0.4 ###
+*1, optimize humming algorithm
+
+### v1.6.0.5 ###
+*1, fix get humming fingerprint crash bug
+
+### v1.6.0.6 ###
+*1, add version function
+
+### v1.6.0.7 ###
+*1, change resample to c version
+
+### v1.6.0.8 ###
+*1, can get the pcm data from resultDataBlock.
+*2, adding audioSessionCategory variable in the config. default value is 1, support bluetooth and airplay.
+
+### v1.6.0.9 ###
+*1, optimize humming algorithm
+
+### v1.6.1.0 ###
+*1, check record permission when start to record
+
+### v1.6.1.1 ###
+*1, fix bugs
+
+### v1.6.1.2 ###
+*1, fix humming bug
+
+### v1.6.1.3 ###
+*1, fix humming bug
+
+### v1.6.1.4 ###
+*1, update swift demo
+
+### v1.6.1.5 ###
+*1, fix requests bug
+
+### v1.6.1.6 ###
+*1, fix bug EXC_BAD_ACCESS in dispatch_async block when using self
+
+### v1.6.1.7 ###
+*1, fix sendSyncRequest cause crash when offline or bad network.

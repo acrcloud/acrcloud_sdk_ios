@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090A02062521E60E0053E0A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A02052521E60E0053E0A9 /* AppDelegate.m */; };
+		090A02092521E60E0053E0A9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A02082521E60E0053E0A9 /* SceneDelegate.m */; };
+		090A020C2521E60E0053E0A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A020B2521E60E0053E0A9 /* ViewController.m */; };
+		090A02112521E6100053E0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090A02102521E6100053E0A9 /* Assets.xcassets */; };
+		090A02142521E6100053E0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A02122521E6100053E0A9 /* LaunchScreen.storyboard */; };
+		090A02172521E6100053E0A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A02162521E6100053E0A9 /* main.m */; };
+		090A02222521E7100053E0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A02212521E7100053E0A9 /* Main.storyboard */; };
+		090A02292521E7790053E0A9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A02282521E7790053E0A9 /* libc++.tbd */; };
+		090A022D2521E99B0053E0A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A022C2521E99B0053E0A9 /* AVFoundation.framework */; };
+		090A02342521F7480053E0A9 /* libACRCloud_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A02332521F7480053E0A9 /* libACRCloud_IOS_SDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		090A02012521E60E0053E0A9 /* ACRCloudiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACRCloudiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090A02042521E60E0053E0A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		090A02052521E60E0053E0A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		090A02072521E60E0053E0A9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		090A02082521E60E0053E0A9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		090A020A2521E60E0053E0A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		090A020B2521E60E0053E0A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		090A02102521E6100053E0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090A02132521E6100053E0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		090A02152521E6100053E0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090A02162521E6100053E0A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		090A021E2521E6BA0053E0A9 /* ACRCloudRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudRecognition.h; sourceTree = "<group>"; };
+		090A021F2521E6BA0053E0A9 /* ACRCloudConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudConfig.h; sourceTree = "<group>"; };
+		090A02212521E7100053E0A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		090A02282521E7790053E0A9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		090A022C2521E99B0053E0A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		090A02332521F7480053E0A9 /* libACRCloud_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACRCloud_IOS_SDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090A01FE2521E60E0053E0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A02292521E7790053E0A9 /* libc++.tbd in Frameworks */,
+				090A022D2521E99B0053E0A9 /* AVFoundation.framework in Frameworks */,
+				090A02342521F7480053E0A9 /* libACRCloud_IOS_SDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090A01F82521E60E0053E0A9 = {
+			isa = PBXGroup;
+			children = (
+				090A02332521F7480053E0A9 /* libACRCloud_IOS_SDK.a */,
+				090A02282521E7790053E0A9 /* libc++.tbd */,
+				090A02032521E60E0053E0A9 /* ACRCloudiOSDemo */,
+				090A02022521E60E0053E0A9 /* Products */,
+				090A022B2521E99B0053E0A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		090A02022521E60E0053E0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090A02012521E60E0053E0A9 /* ACRCloudiOSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090A02032521E60E0053E0A9 /* ACRCloudiOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				090A021F2521E6BA0053E0A9 /* ACRCloudConfig.h */,
+				090A021E2521E6BA0053E0A9 /* ACRCloudRecognition.h */,
+				090A02042521E60E0053E0A9 /* AppDelegate.h */,
+				090A02052521E60E0053E0A9 /* AppDelegate.m */,
+				090A02072521E60E0053E0A9 /* SceneDelegate.h */,
+				090A02082521E60E0053E0A9 /* SceneDelegate.m */,
+				090A020A2521E60E0053E0A9 /* ViewController.h */,
+				090A020B2521E60E0053E0A9 /* ViewController.m */,
+				090A02212521E7100053E0A9 /* Main.storyboard */,
+				090A02102521E6100053E0A9 /* Assets.xcassets */,
+				090A02122521E6100053E0A9 /* LaunchScreen.storyboard */,
+				090A02152521E6100053E0A9 /* Info.plist */,
+				090A02162521E6100053E0A9 /* main.m */,
+			);
+			path = ACRCloudiOSDemo;
+			sourceTree = "<group>";
+		};
+		090A022B2521E99B0053E0A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				090A022C2521E99B0053E0A9 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090A02002521E60E0053E0A9 /* ACRCloudiOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090A021A2521E6100053E0A9 /* Build configuration list for PBXNativeTarget "ACRCloudiOSDemo" */;
+			buildPhases = (
+				090A01FD2521E60E0053E0A9 /* Sources */,
+				090A01FE2521E60E0053E0A9 /* Frameworks */,
+				090A01FF2521E60E0053E0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACRCloudiOSDemo;
+			productName = ACRCloudiOSDemo;
+			productReference = 090A02012521E60E0053E0A9 /* ACRCloudiOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090A01F92521E60E0053E0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					090A02002521E60E0053E0A9 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 090A01FC2521E60E0053E0A9 /* Build configuration list for PBXProject "ACRCloudiOSDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 090A01F82521E60E0053E0A9;
+			productRefGroup = 090A02022521E60E0053E0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090A02002521E60E0053E0A9 /* ACRCloudiOSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090A01FF2521E60E0053E0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A02142521E6100053E0A9 /* LaunchScreen.storyboard in Resources */,
+				090A02112521E6100053E0A9 /* Assets.xcassets in Resources */,
+				090A02222521E7100053E0A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090A01FD2521E60E0053E0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A020C2521E60E0053E0A9 /* ViewController.m in Sources */,
+				090A02062521E60E0053E0A9 /* AppDelegate.m in Sources */,
+				090A02172521E6100053E0A9 /* main.m in Sources */,
+				090A02092521E60E0053E0A9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		090A02122521E6100053E0A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090A02132521E6100053E0A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090A02182521E6100053E0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		090A02192521E6100053E0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090A021B2521E6100053E0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73VE83GXNB;
+				INFOPLIST_FILE = ACRCloudiOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ACRCloud.ACRCloudiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		090A021C2521E6100053E0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73VE83GXNB;
+				INFOPLIST_FILE = ACRCloudiOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ACRCloud.ACRCloudiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090A01FC2521E60E0053E0A9 /* Build configuration list for PBXProject "ACRCloudiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090A02182521E6100053E0A9 /* Debug */,
+				090A02192521E6100053E0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090A021A2521E6100053E0A9 /* Build configuration list for PBXNativeTarget "ACRCloudiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090A021B2521E6100053E0A9 /* Debug */,
+				090A021C2521E6100053E0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090A01F92521E60E0053E0A9 /* Project object */;
+}
