@@ -92,3 +92,7 @@
 
 ### v1.6.1.7 ###
 *1, fix sendSyncRequest cause crash when offline or bad network.
+
+### v1.6.1.8 ###
+*1, fix: audio session category change will make the recording state undefined. Now audio session category change will stop the recording.
+
