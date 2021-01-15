@@ -10,9 +10,7 @@ This demo shows how to identify music ( songs ) or detect live TV channels by re
 * Save the information of “host”, “access_key”, “access_secret” of your project.
 * Make sure you have Xcode installed.
 
-## One-time  Recording Session Recognition
-Click the “Start” Button and the App Demo will begin to record and recognize. When it detects a result, the app demo will stop and display the result. In the progress of recording and detecting, you can stop (click the “Stop” Button”) this recognition at any time.
-### If you are familiar with iOS development.
+## Test the demo
 * Download the ACRCloud iOS SDK package and unzip it.
 * Open either ACRCloudDemo or ACRCloudDemo_Swift
 * Update accessKey, host and accessSecret in ViewController with the information of your project.
