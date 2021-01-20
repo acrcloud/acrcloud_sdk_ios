@@ -96,3 +96,6 @@
 ### v1.6.1.8 ###
 *1, fix: audio session category change will make the recording state undefined. Now audio session category change will stop the recording.
 
+### v1.6.1.9 ###
+*1, fix resample bug
+
