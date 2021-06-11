@@ -1,0 +1,6 @@
+framework module acrcloud_ios_framework {
+  umbrella header "acrcloud_ios_framework.h"
+
+  export *
+  module * { export * }
+}
