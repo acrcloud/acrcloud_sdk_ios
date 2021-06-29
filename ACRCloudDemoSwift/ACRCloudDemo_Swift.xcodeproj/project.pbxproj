@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		090A0257252204450053E0A9 /* libACRCloud_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A0256252204450053E0A9 /* libACRCloud_IOS_SDK.a */; };
+		09F9C3ED268B05A800EAB920 /* ACRCloudSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9C3EC268B05A800EAB920 /* ACRCloudSDK.xcframework */; };
 		A24E360E1D5B74F600C98C28 /* LICENSE.MD in Sources */ = {isa = PBXBuildFile; fileRef = A24E360D1D5B74F600C98C28 /* LICENSE.MD */; };
 		A2B3CEA81ED8543100A5791E /* acrcloud_local_db in Resources */ = {isa = PBXBuildFile; fileRef = A2B3CEA71ED8543100A5791E /* acrcloud_local_db */; };
 		A2D968871CA512B0009618E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D968861CA512B0009618E1 /* AppDelegate.swift */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		090A0256252204450053E0A9 /* libACRCloud_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACRCloud_IOS_SDK.a; sourceTree = "<group>"; };
+		09F9C3EC268B05A800EAB920 /* ACRCloudSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ACRCloudSDK.xcframework; path = ../ACRCloudSDK.xcframework; sourceTree = "<group>"; };
 		A24E360D1D5B74F600C98C28 /* LICENSE.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.MD; sourceTree = "<group>"; };
 		A2B3CEA71ED8543100A5791E /* acrcloud_local_db */ = {isa = PBXFileReference; lastKnownFileType = folder; path = acrcloud_local_db; sourceTree = "<group>"; };
 		A2D968831CA512AF009618E1 /* ACRCloudDemo_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACRCloudDemo_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +51,6 @@
 		A2D968921CA512B0009618E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2D968971CA512B0009618E1 /* ACRCloudDemo_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACRCloudDemo_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D968A21CA512B0009618E1 /* ACRCloudDemo_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACRCloudDemo_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2D968B41CA51E5F009618E1 /* ACRCloudConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudConfig.h; sourceTree = "<group>"; };
-		A2D968B51CA51E5F009618E1 /* ACRCloudRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudRecognition.h; sourceTree = "<group>"; };
 		A2D968B81CA51EC0009618E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A2D968BA1CA51ED6009618E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A2D968BC1CA51EE1009618E1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -68,8 +66,8 @@
 				A2D968C71CA6560D009618E1 /* libc++.tbd in Frameworks */,
 				A2D968BD1CA51EE1009618E1 /* AudioToolbox.framework in Frameworks */,
 				A2D968BB1CA51ED6009618E1 /* Security.framework in Frameworks */,
-				090A0257252204450053E0A9 /* libACRCloud_IOS_SDK.a in Frameworks */,
 				A2D968B91CA51EC0009618E1 /* AVFoundation.framework in Frameworks */,
+				09F9C3ED268B05A800EAB920 /* ACRCloudSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +91,8 @@
 		A2D9687A1CA512AF009618E1 = {
 			isa = PBXGroup;
 			children = (
+				09F9C3EC268B05A800EAB920 /* ACRCloudSDK.xcframework */,
 				A2D968C61CA6560D009618E1 /* libc++.tbd */,
-				090A0256252204450053E0A9 /* libACRCloud_IOS_SDK.a */,
 				A2D968BC1CA51EE1009618E1 /* AudioToolbox.framework */,
 				A2D968BA1CA51ED6009618E1 /* Security.framework */,
 				A2D968B81CA51EC0009618E1 /* AVFoundation.framework */,
@@ -117,8 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				A2D968BF1CA53B57009618E1 /* ACRCloudDemo_Swift-Bridging-Header.h */,
-				A2D968B41CA51E5F009618E1 /* ACRCloudConfig.h */,
-				A2D968B51CA51E5F009618E1 /* ACRCloudRecognition.h */,
 				A2D968861CA512B0009618E1 /* AppDelegate.swift */,
 				A2D968881CA512B0009618E1 /* ViewController.swift */,
 				A2D9688A1CA512B0009618E1 /* Main.storyboard */,
@@ -414,7 +410,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ACRCloudDemo_Swift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -437,7 +436,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ACRCloudDemo_Swift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -456,7 +458,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ACRCloudDemo_SwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -469,7 +475,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ACRCloudDemo_SwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -481,7 +491,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = ACRCloudDemo_SwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -494,7 +508,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = ACRCloudDemo_SwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

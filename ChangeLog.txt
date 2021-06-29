@@ -99,3 +99,5 @@
 ### v1.6.1.9 ###
 *1, fix resample bug and session change handler bug
 
+### v1.6.2.0 ###
+*1, add xcframework

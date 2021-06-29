@@ -25,9 +25,10 @@ class ViewController: UIViewController {
         
         let config = ACRCloudConfig();
         
-        config.accessKey = "Your Access Key";
-        config.accessSecret = "Your Access Secret";
-        config.host = "Your Host";
+        config.accessKey = "<your_project_access_key>";
+        config.accessSecret = "<your_project_secret_key>";
+        config.host = "<your project host>";
+        
         //if you want to identify your offline db, set the recMode to "rec_mode_local"
         config.recMode = rec_mode_remote;
         config.requestTimeout = 10;
