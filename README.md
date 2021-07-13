@@ -1,5 +1,19 @@
 # ACRCloud iOS SDK
 
+## Overview
+  [ACRCloud](https://www.acrcloud.com/) provides services such as **[Music Recognition](https://www.acrcloud.com/music-recognition)**, **[Broadcast Monitoring](https://www.acrcloud.com/broadcast-monitoring/)**, **[Custom Audio Recognition](https://www.acrcloud.com/second-screen-synchronization%e2%80%8b/)**, **[Copyright Compliance & Data Deduplication](https://www.acrcloud.com/copyright-compliance-data-deduplication/)**, **[Live Channel Detection](https://www.acrcloud.com/live-channel-detection/)**, and **[Offline Recognition](https://www.acrcloud.com/offline-recognition/)** etc.<br>
+
+## Requirements                                                                                                                             
+Follow one of the tutorials to create a project and get your host, access_key and access_secret.
+
+ * [Recognize Music](https://docs.acrcloud.com/tutorials/recognize-music)
+ * [Recognize Custom Content](https://docs.acrcloud.com/tutorials/recognize-custom-content)
+ * [Broadcast Monitoring for Music](https://docs.acrcloud.com/tutorials/broadcast-monitoring-for-music)
+ * [Broadcast Monitoring for Custom Content](https://docs.acrcloud.com/tutorials/broadcast-monitoring-for-custom-content)
+ * [Detect Live & Timeshift TV Channels](https://docs.acrcloud.com/tutorials/detect-live-and-timeshift-tv-channels)
+ * [Recognize Custom Content Offline](https://docs.acrcloud.com/tutorials/recognize-custom-content-offline)
+ * [Recognize Live Channels and Custom Content](https://docs.acrcloud.com/tutorials/recognize-tv-channels-and-custom-content)
+ * 
 ## Identify Music or TV with iOS SDK
 This demo shows how to identify music ( songs ) or detect live TV channels by recorded sound with ACRCloud iOS SDK. Contact us if you have any question or special requirement about the SDK: support@acrcloud.com
 
