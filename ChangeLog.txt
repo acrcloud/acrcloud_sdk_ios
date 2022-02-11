@@ -104,3 +104,6 @@
 
 ### v1.6.2.1 ###
 *1, modify xcframework
+
+### v1.6.2.2 ###
+*1, update humming fingerprint
