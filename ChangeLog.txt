@@ -109,4 +109,7 @@
 *1, update humming fingerprint
 
 ### v1.6.2.3 ###
-*1. update humming fingerprint
+*1, update audio session category
+
+### v1.6.2.4 ###
+*1, update humming fingerprint
