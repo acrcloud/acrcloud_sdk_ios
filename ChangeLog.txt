@@ -113,3 +113,6 @@
 
 ### v1.6.2.4 ###
 *1, update humming fingerprint
+
+### v1.6.2.5 ###
+*1, update humming fingerprint
