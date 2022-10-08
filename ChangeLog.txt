@@ -116,3 +116,6 @@
 
 ### v1.6.2.5 ###
 *1, update humming fingerprint
+
+### v1.6.2.6 ###
+*1, only generate humming fingerprint when duration bigger than 2 seconds
