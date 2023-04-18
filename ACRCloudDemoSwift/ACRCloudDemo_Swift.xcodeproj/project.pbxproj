@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		09F9C3ED268B05A800EAB920 /* ACRCloudSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9C3EC268B05A800EAB920 /* ACRCloudSDK.xcframework */; };
 		A24E360E1D5B74F600C98C28 /* LICENSE.MD in Sources */ = {isa = PBXBuildFile; fileRef = A24E360D1D5B74F600C98C28 /* LICENSE.MD */; };
-		A2B3CEA81ED8543100A5791E /* acrcloud_local_db in Resources */ = {isa = PBXBuildFile; fileRef = A2B3CEA71ED8543100A5791E /* acrcloud_local_db */; };
 		A2D968871CA512B0009618E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D968861CA512B0009618E1 /* AppDelegate.swift */; };
 		A2D968891CA512B0009618E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D968881CA512B0009618E1 /* ViewController.swift */; };
 		A2D9688C1CA512B0009618E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D9688A1CA512B0009618E1 /* Main.storyboard */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		09F9C3EC268B05A800EAB920 /* ACRCloudSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ACRCloudSDK.xcframework; path = ../ACRCloudSDK.xcframework; sourceTree = "<group>"; };
 		A24E360D1D5B74F600C98C28 /* LICENSE.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.MD; sourceTree = "<group>"; };
-		A2B3CEA71ED8543100A5791E /* acrcloud_local_db */ = {isa = PBXFileReference; lastKnownFileType = folder; path = acrcloud_local_db; sourceTree = "<group>"; };
 		A2D968831CA512AF009618E1 /* ACRCloudDemo_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACRCloudDemo_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D968861CA512B0009618E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2D968881CA512B0009618E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				A2D968881CA512B0009618E1 /* ViewController.swift */,
 				A2D9688A1CA512B0009618E1 /* Main.storyboard */,
 				A24E360D1D5B74F600C98C28 /* LICENSE.MD */,
-				A2B3CEA71ED8543100A5791E /* acrcloud_local_db */,
 				A2D9688D1CA512B0009618E1 /* Assets.xcassets */,
 				A2D9688F1CA512B0009618E1 /* LaunchScreen.storyboard */,
 				A2D968921CA512B0009618E1 /* Info.plist */,
@@ -195,7 +192,6 @@
 				TargetAttributes = {
 					A2D968821CA512AF009618E1 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 73VE83GXNB;
 						LastSwiftMigration = 0810;
 					};
 					A2D968961CA512B0009618E1 = {
@@ -237,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D968911CA512B0009618E1 /* LaunchScreen.storyboard in Resources */,
-				A2B3CEA81ED8543100A5791E /* acrcloud_local_db in Resources */,
 				A2D9688E1CA512B0009618E1 /* Assets.xcassets in Resources */,
 				A2D9688C1CA512B0009618E1 /* Main.storyboard in Resources */,
 			);
@@ -406,9 +401,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 73VE83GXNB;
 				INFOPLIST_FILE = ACRCloudDemo_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,12 +416,16 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/ACRCloudDemo_Swift",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo2-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "ACRCloudDemo_Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,9 +433,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 73VE83GXNB;
 				INFOPLIST_FILE = ACRCloudDemo_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,11 +448,15 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/ACRCloudDemo_Swift",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.ACRCloudDemo2-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = ACRCloud.ACRCloudDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "ACRCloudDemo_Swift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
