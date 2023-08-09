@@ -4,7 +4,7 @@
   [ACRCloud](https://www.acrcloud.com/) provides services such as **[Music Recognition](https://www.acrcloud.com/music-recognition)**, **[Broadcast Monitoring](https://www.acrcloud.com/broadcast-monitoring/)**, **[Custom Audio Recognition](https://www.acrcloud.com/second-screen-synchronization%e2%80%8b/)**, **[Copyright Compliance & Data Deduplication](https://www.acrcloud.com/copyright-compliance-data-deduplication/)**, **[Live Channel Detection](https://www.acrcloud.com/live-channel-detection/)**, and **[Offline Recognition](https://www.acrcloud.com/offline-recognition/)** etc.<br>
 
 ## Requirements                                                                                                                             
-Follow one of the tutorials to create a project and get your host, access_key and access_secret.
+Follow one of the tutorials to create a project and get your host, access_key, and access_secret.
 
  * [Recognize Music](https://docs.acrcloud.com/tutorials/recognize-music)
  * [Recognize Custom Content](https://docs.acrcloud.com/tutorials/recognize-custom-content)
@@ -15,7 +15,7 @@ Follow one of the tutorials to create a project and get your host, access_key an
  * [Recognize Live Channels and Custom Content](https://docs.acrcloud.com/tutorials/recognize-tv-channels-and-custom-content)
  * 
 ## Identify Music or TV with iOS SDK
-This demo shows how to identify music ( songs ) or detect live TV channels by recorded sound with ACRCloud iOS SDK. Contact us if you have any question or special requirement about the SDK: support@acrcloud.com
+This demo shows how to identify music ( songs ) or detect live TV channels by recorded sound with ACRCloud iOS SDK. Contact us if you have any questions or special requirements about the SDK: support@acrcloud.com
 
 ## Preparation
 * The newest ACRCloud iOS SDK which contains both ObjectC and Swift demo projects.
@@ -27,7 +27,7 @@ This demo shows how to identify music ( songs ) or detect live TV channels by re
 ## Test the demo
 * Download the ACRCloud iOS SDK package and unzip it.
 * Open either ACRCloudDemo or ACRCloudDemo_Swift
-* Update accessKey, host and accessSecret in ViewController with the information of your project.
+* Update accessKey, host, and accessSecret in ViewController with the information of your project.
 * Run the demo project to test recognizing contents in the buckets of your project.
 
 ## How to use the iOS SDK
@@ -77,32 +77,34 @@ In the progress of recording and detecting, you can stop (click the “Stop” B
 ```
 
 #### Open Prerecording Recognition
-Open prerecording will make the recognition much more faster.
+Open prerecording will make the recognition much faster.
 If you want open this feature, call "-(void)startPreRecord:(NSInteger)recordTime" before "startRecordRec"
-The parameter recordTime is the prerecording time. The recommend value is 3000-4000
+The parameter recordTime is the prerecording time. The recommended value is 3000-4000
 ```
   [_client startPreRecord:3000]
 ```
 
 ### Low-Level Function
 #### File/PCM/Fingerprint Recognition
-if you recongize audio data, the audio format shoud be  RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, mono 8000 Hz,  you also can use the resample function to convert the audio data to what we need.
+if you recognize audio data or get the audio fingerprint, the audio format should be  RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16-bit, mono 8000 Hz,  you also can use the resample function to convert the audio data to what we need.
 ```
 -(NSString*)recognize:(char*)buffer len:(int)len;
 -(NSString*)recognize:(NSData*)pcm_data;
 -(NSString*)recognize_fp:(NSData*)fingerprint;
++(NSData*)get_fingerprint:(NSData*)pcm
++(NSData*)get_fingerprint:(char *)pcm len:(int)len
 ```
 #### Humming Recognition
-if you recongize humming data, the audio format shoud be  RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16
+if you recognize humming data, the audio format should be  RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16
 bit, mono 8000 Hz,  you also can use the resample function to convert the audio data to what we need.
 ```
 //Get humming fingerprint.
 +(NSData*)get_hum_fingerprint:(NSData*)pcm;
-//recognize humming fingerprint
+//recognize the humming fingerprint
 -(NSString*)recognize_hum_fp:(NSData*)fingerprint;
 ```
 #### Resample Function
-Convert your audio format to RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, mono 8000 Hz
+Convert your audio format to RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16-bit, mono 8000 Hz
 ```
 +(NSData*) resample:(char*)pcm
                 len:(unsigned)len
