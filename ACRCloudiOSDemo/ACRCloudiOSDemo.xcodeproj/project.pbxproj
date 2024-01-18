@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,7 @@
 		090A02222521E7100053E0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A02212521E7100053E0A9 /* Main.storyboard */; };
 		090A02292521E7790053E0A9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A02282521E7790053E0A9 /* libc++.tbd */; };
 		090A022D2521E99B0053E0A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A022C2521E99B0053E0A9 /* AVFoundation.framework */; };
-		09F9C3E4268ADB7000EAB920 /* ACRCloudSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9C3E3268ADB7000EAB920 /* ACRCloudSDK.xcframework */; };
+		09CAAE502B5926BD0083663D /* ACRCloudiOSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAAE4F2B5926BD0083663D /* ACRCloudiOSSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,7 @@
 		090A02212521E7100053E0A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		090A02282521E7790053E0A9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		090A022C2521E99B0053E0A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		09F9C3E3268ADB7000EAB920 /* ACRCloudSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ACRCloudSDK.xcframework; path = ../ACRCloudSDK.xcframework; sourceTree = "<group>"; };
+		09CAAE4F2B5926BD0083663D /* ACRCloudiOSSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ACRCloudiOSSDK.xcframework; path = ../ACRCloudiOSSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09F9C3E4268ADB7000EAB920 /* ACRCloudSDK.xcframework in Frameworks */,
 				090A02292521E7790053E0A9 /* libc++.tbd in Frameworks */,
+				09CAAE502B5926BD0083663D /* ACRCloudiOSSDK.xcframework in Frameworks */,
 				090A022D2521E99B0053E0A9 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +54,6 @@
 		090A01F82521E60E0053E0A9 = {
 			isa = PBXGroup;
 			children = (
-				09F9C3E3268ADB7000EAB920 /* ACRCloudSDK.xcframework */,
 				090A02282521E7790053E0A9 /* libc++.tbd */,
 				090A02032521E60E0053E0A9 /* ACRCloudiOSDemo */,
 				090A02022521E60E0053E0A9 /* Products */,
@@ -92,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				090A022C2521E99B0053E0A9 /* AVFoundation.framework */,
+				09CAAE4F2B5926BD0083663D /* ACRCloudiOSSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

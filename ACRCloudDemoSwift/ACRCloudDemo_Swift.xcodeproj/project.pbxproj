@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09F9C3ED268B05A800EAB920 /* ACRCloudSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9C3EC268B05A800EAB920 /* ACRCloudSDK.xcframework */; };
+		09CAAE522B5927CE0083663D /* ACRCloudiOSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAAE512B5927CE0083663D /* ACRCloudiOSSDK.xcframework */; };
 		A24E360E1D5B74F600C98C28 /* LICENSE.MD in Sources */ = {isa = PBXBuildFile; fileRef = A24E360D1D5B74F600C98C28 /* LICENSE.MD */; };
 		A2D968871CA512B0009618E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D968861CA512B0009618E1 /* AppDelegate.swift */; };
 		A2D968891CA512B0009618E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D968881CA512B0009618E1 /* ViewController.swift */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09F9C3EC268B05A800EAB920 /* ACRCloudSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ACRCloudSDK.xcframework; path = ../ACRCloudSDK.xcframework; sourceTree = "<group>"; };
+		09CAAE512B5927CE0083663D /* ACRCloudiOSSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ACRCloudiOSSDK.xcframework; path = ../ACRCloudiOSSDK.xcframework; sourceTree = "<group>"; };
 		A24E360D1D5B74F600C98C28 /* LICENSE.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.MD; sourceTree = "<group>"; };
 		A2D968831CA512AF009618E1 /* ACRCloudDemo_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACRCloudDemo_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D968861CA512B0009618E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,9 +63,9 @@
 			files = (
 				A2D968C71CA6560D009618E1 /* libc++.tbd in Frameworks */,
 				A2D968BD1CA51EE1009618E1 /* AudioToolbox.framework in Frameworks */,
+				09CAAE522B5927CE0083663D /* ACRCloudiOSSDK.xcframework in Frameworks */,
 				A2D968BB1CA51ED6009618E1 /* Security.framework in Frameworks */,
 				A2D968B91CA51EC0009618E1 /* AVFoundation.framework in Frameworks */,
-				09F9C3ED268B05A800EAB920 /* ACRCloudSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +89,8 @@
 		A2D9687A1CA512AF009618E1 = {
 			isa = PBXGroup;
 			children = (
-				09F9C3EC268B05A800EAB920 /* ACRCloudSDK.xcframework */,
 				A2D968C61CA6560D009618E1 /* libc++.tbd */,
+				09CAAE512B5927CE0083663D /* ACRCloudiOSSDK.xcframework */,
 				A2D968BC1CA51EE1009618E1 /* AudioToolbox.framework */,
 				A2D968BA1CA51ED6009618E1 /* Security.framework */,
 				A2D968B81CA51EC0009618E1 /* AVFoundation.framework */,

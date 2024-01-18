@@ -2,5 +2,5 @@
 //  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
-#import "ACRCloudConfig.h"
-#import "ACRCloudRecognition.h"
+#import <ACRCloudiOSSDK/ACRCloudConfig.h>
+#import <ACRCloudiOSSDK/ACRCloudRecognition.h>

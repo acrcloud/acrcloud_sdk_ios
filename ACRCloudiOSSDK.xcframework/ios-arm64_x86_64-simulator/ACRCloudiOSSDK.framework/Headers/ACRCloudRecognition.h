@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ACRCloudConfig.h"
+//#import "ACRCloudConfig.h"
+#import <ACRCloudiOSSDK/ACRCloudConfig.h>
 
 @interface ACRCloudRecognition : NSObject
 

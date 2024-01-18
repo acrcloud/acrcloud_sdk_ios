@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         config.protocol = "https";
 
         /* used for local model */
-        if (config.recMode == rec_mode_local || config.recMode == rec_mode_both) {
+        if (config.recMode == rec_mode_local) {
             config.homedir = Bundle.main.resourcePath!.appending("/acrcloud_local_db");
         }
         

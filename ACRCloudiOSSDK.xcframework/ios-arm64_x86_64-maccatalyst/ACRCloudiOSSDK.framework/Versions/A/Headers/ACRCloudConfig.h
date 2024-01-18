@@ -11,7 +11,7 @@
 typedef enum {
     rec_mode_remote = 0,    //query remote db
     rec_mode_local = 1,     //query local db
-    rec_mode_both = 2,      // query both remote db and local db
+   
     rec_mode_advance_remote = 3  //query remote db and saving recording fingerprint when offline.
 }ACRCloudRecMode;
 
@@ -62,7 +62,7 @@ typedef void(^ACRCloudVolumeBlock)(float volume);
     NSInteger _requestTimeout;
     NSInteger _prerecorderTime;
     NSInteger _keepPlaying;
-    NSUInteger _audioSessionCategory;   //default 1, support bluetooth and airplay
+    NSUInteger _audioSessionCategory;   //default 1, support blooth and airplay
     ACRCloudResultBlock _resultBlock;
     ACRCloudStateBlock _stateBlock;
     ACRCloudVolumeBlock _volumeBlock;

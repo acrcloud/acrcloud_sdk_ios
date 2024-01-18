@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 
-#import "ACRCloudRecognition.h"
-#import "ACRCloudConfig.h"
+#import <ACRCloudiOSSDK/ACRCloudRecognition.h>
+#import <ACRCloudiOSSDK/ACRCloudConfig.h>
 
 @interface ViewController ()
 
@@ -41,7 +41,7 @@
     _config.requestTimeout = 10;
     
     /* used for local model */
-    if (_config.recMode == rec_mode_local || _config.recMode == rec_mode_both)
+    if (_config.recMode == rec_mode_local)
         _config.homedir = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"acrcloud_local_db"];
     
     __weak typeof(self) weakSelf = self;
