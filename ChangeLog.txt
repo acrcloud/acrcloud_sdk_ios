@@ -135,3 +135,10 @@
 
 ### v1.7.0.0 ###
 *1, Change static libraries to binary framework bundle
+
+### v1.7.0.1 ###
+*1, add new function
++(NSData*) resample_bit32:(NSData*)pcm
+               sampleRate:(unsigned)sampleRate
+                 nChannel:(short)nChannel
+                  isFloat:(bool)isFloat;

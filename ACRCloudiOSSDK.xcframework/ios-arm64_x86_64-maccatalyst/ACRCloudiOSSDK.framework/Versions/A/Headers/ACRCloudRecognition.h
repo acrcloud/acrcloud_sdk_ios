@@ -64,5 +64,10 @@
                  nChannel:(short)nChannel
                   isFloat:(bool)isFloat;
 
++(NSData*) resample_bit32:(NSData*)pcm
+               sampleRate:(unsigned)sampleRate
+                 nChannel:(short)nChannel
+                  isFloat:(bool)isFloat;
+
 +(NSString*) version;
 @end

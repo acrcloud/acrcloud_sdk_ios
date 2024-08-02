@@ -16,8 +16,23 @@
 		090A02222521E7100053E0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A02212521E7100053E0A9 /* Main.storyboard */; };
 		090A02292521E7790053E0A9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A02282521E7790053E0A9 /* libc++.tbd */; };
 		090A022D2521E99B0053E0A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A022C2521E99B0053E0A9 /* AVFoundation.framework */; };
-		09CAAE502B5926BD0083663D /* ACRCloudiOSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAAE4F2B5926BD0083663D /* ACRCloudiOSSDK.xcframework */; };
+		09A21F152C5CE48E0030E66E /* ACRCloudiOSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAAE4F2B5926BD0083663D /* ACRCloudiOSSDK.xcframework */; };
+		09A21F162C5CE48E0030E66E /* ACRCloudiOSSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAAE4F2B5926BD0083663D /* ACRCloudiOSSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09A21F172C5CE48E0030E66E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09A21F162C5CE48E0030E66E /* ACRCloudiOSSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		090A02012521E60E0053E0A9 /* ACRCloudiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACRCloudiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090A02292521E7790053E0A9 /* libc++.tbd in Frameworks */,
-				09CAAE502B5926BD0083663D /* ACRCloudiOSSDK.xcframework in Frameworks */,
+				09A21F152C5CE48E0030E66E /* ACRCloudiOSSDK.xcframework in Frameworks */,
 				090A022D2521E99B0053E0A9 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +121,7 @@
 				090A01FD2521E60E0053E0A9 /* Sources */,
 				090A01FE2521E60E0053E0A9 /* Frameworks */,
 				090A01FF2521E60E0053E0A9 /* Resources */,
+				09A21F172C5CE48E0030E66E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
