@@ -142,3 +142,5 @@
                sampleRate:(unsigned)sampleRate
                  nChannel:(short)nChannel
                   isFloat:(bool)isFloat;
+### v1.7.0.2 ###
+*1, The resample function removes the duration limit.
